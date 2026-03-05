@@ -10,6 +10,9 @@ export const metadata: Metadata = {
     "SEO website developer",
     "Next.js web development",
   ],
+  verification: {
+    google: "KcGIPdOfGmnGSTn9BehYql_rOp6ge4ZXNKwq0jygy3w",
+  },
 };
 
 export default function RootLayout({
