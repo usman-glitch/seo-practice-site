@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://seo-practice-site-khaki.vercel.app
+
+# Sitemaps
+Sitemap: https://seo-practice-site-khaki.vercel.app/sitemap.xml
