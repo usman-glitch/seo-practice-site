@@ -1,17 +1,33 @@
-import "./globals.css";
 import type { Metadata } from "next";
+import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Next.js Website Developer in Pakistan | SEO Optimized Websites",
+  title: {
+    default: "Usman.dev | Next.js Developer",
+    template: "%s | Usman.dev",
+  },
   description:
-    "Professional Next.js developer building fast, SEO-friendly and modern websites for businesses in Pakistan.",
+    "Usman.dev builds fast, modern and SEO-optimized Next.js websites designed for performance and search engine visibility.",
   keywords: [
-    "Next.js developer Pakistan",
-    "SEO website developer",
-    "Next.js web development",
+    "Next.js developer",
+    "SEO optimized websites",
+    "web developer",
+    "Next.js portfolio",
   ],
-  verification: {
-    google: "KcGIPdOfGmnGSTn9BehYql_rOp6ge4ZXNKwq0jygy3w",
+  metadataBase: new URL("https://seo-practice-site-khaki.vercel.app"),
+
+  openGraph: {
+    title: "Usman.dev | Next.js Developer",
+    description:
+      "Modern websites built with Next.js, optimized for performance and SEO.",
+    url: "https://seo-practice-site-khaki.vercel.app",
+    siteName: "Usman.dev",
+    type: "website",
+  },
+
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 
